@@ -1,0 +1,41 @@
+nav {
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	align-items: center;
+	align-content: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+nav h2, nav h4 {
+	color: #565656;
+}
+
+.navbar {
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 20px;
+	background-color: #D8FCA8;
+	font-weight: bold;
+}
+
+.navbar-brand {
+	font-family: 'Berkshire Swash', cursive;
+}
+
+.nav-item {
+	margin-left: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+	.nav-link {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.nav-link {
+		font-size: 14px;
+	}
+}
