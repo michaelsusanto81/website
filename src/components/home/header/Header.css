@@ -1,0 +1,51 @@
+header {
+	background-color: #D8FCA8;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.bg-circle {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	width: 480px;
+	height: 480px;
+	border-radius: 100%;
+	background-color: #8FA571;
+	color: #EBEBEB;
+	margin: 50px auto;
+	transition: 1s;
+}
+
+.bg-circle h1 {
+	padding-top: 200px;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+@media only screen and (max-width: 500px) {
+	.bg-circle {
+		width: 360px;
+		height: 360px;
+	}
+
+	.bg-circle h1 {
+		padding-top: 140px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.bg-circle {
+		width: 250px;
+		height: 250px;
+	}
+
+	.bg-circle h1 {
+		padding-top: 90px;
+		font-size: 28px;
+	}
+
+	.bg-circle h3 {
+		font-size: 25px;
+	}
+}
