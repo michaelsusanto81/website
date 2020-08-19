@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './contact/Contact'
 import FB from '../../assets/fb-logo.png';
 import Youtube from '../../assets/youtube-logo.png';
 import GitHub from '../../assets/github-logo.png';
@@ -10,26 +11,10 @@ function Footer() {
 		<footer className="d-flex flex-column justify-content-around align-items-center">
 			<h3>Find me on</h3>	
 			<ul className="contacts">
-				<li className="contact">
-					<a href="https://www.facebook.com/michael.s.155" target="_blank">
-						<img src={FB} alt="Facebook" />
-					</a>
-				</li>
-				<li className="contact">
-					<a href="https://www.youtube.com/channel/UC5325r3vONhMKz9QTXlPm2g" target="_blank">
-						<img src={Youtube} alt="Youtube" />
-					</a>
-				</li>
-				<li className="contact">
-					<a href="https://gitlab.com/michaelsusanto81" target="_blank">
-						<img src={GitHub} alt="GitHub" />
-					</a>
-				</li>
-				<li className="contact">
-					<a href="https://id.linkedin.com/in/michael-susanto-292671193?trk=people-guest_profile-result-card_result-card_full-click" target="_blank">
-						<img src={LinkedIn} alt="LinkedIn" />
-					</a>
-				</li>
+				<Contact url="https://www.facebook.com/michael.s.155" image={FB} alt="Facebook" />
+				<Contact url="https://www.youtube.com/channel/UC5325r3vONhMKz9QTXlPm2g" image={Youtube} alt="Youtube" />
+				<Contact url="https://gitlab.com/michaelsusanto81" image={GitHub} alt="GitHub" />
+				<Contact url="https://id.linkedin.com/in/michaelsusanto81" image={LinkedIn} alt="LinkedIn" />
 			</ul>	
 			<h5>© 2020 Michael Susanto.</h5>
 		</footer>
