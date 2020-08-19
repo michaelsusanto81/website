@@ -17,19 +17,19 @@ function Navbar() {
 
 		    <div className="collapse navbar-collapse" id="collapsibleNavbar">
 		        <div className="navbar-nav ml-auto">
-		        	<div className="nav-link nav-item">
+		        	<div className="nav-item">
 		        		<Link to='/' className="text-decoration-none">
-		        			<h4>Home</h4>
+		        			<h4 className="nav-link">Home</h4>
 		        		</Link>
 		        	</div>
-		        	<div className="nav-link nav-item">
-		        		<Link to='/portfolio'  className="text-decoration-none">
-		        			<h4>Portfolio</h4>
+		        	<div className="nav-item">
+		        		<Link to='/portfolio' className="text-decoration-none">
+		        			<h4 className="nav-link">Portfolio</h4>
 		        		</Link>
 		        	</div>
-		        	<div className="nav-link nav-item">
-		        		<Link to='/about'  className="text-decoration-none">
-		        			<h4>About</h4>
+		        	<div className="nav-item">
+		        		<Link to='/about' className="text-decoration-none">
+		        			<h4 className="nav-link">About</h4>
 		        		</Link>
 		        	</div>
 		        </div>

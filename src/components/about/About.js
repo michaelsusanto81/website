@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './header/Header';
+import Content from './content/Content';
 
 function About() {
 	return (
 		<div>
-			<h1>About</h1>
+			<Header />
+			<Content />
 		</div>
 	)
 }
