@@ -6,7 +6,7 @@ function Header() {
 		<header className="d-flex flex-column justify-content-around align-items-center">
 			<div className="bg-circle">
 				<h1>Michael Susanto</h1>
-				<h3>Web Developer</h3>
+				<h3>Software Developer</h3>
 			</div>		
 		</header>
 	)

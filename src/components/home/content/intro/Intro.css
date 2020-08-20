@@ -1,0 +1,25 @@
+section {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 70px 0;
+}
+
+.prof-pic {
+	width: 200px;
+	border-radius: 100%;
+}
+
+.intro h3 {
+	color: #8FA571;
+	font-weight: 700;
+	margin: 20px auto;
+}
+
+.intro h4 {
+	font-size: 22px;
+}
+
+@media only screen and (max-width: 500px) {
+	.intro h4 {
+		font-size: 18px;
+	}
+}
