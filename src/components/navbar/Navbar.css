@@ -11,6 +11,10 @@ nav h2, nav h4 {
 	color: #565656;
 }
 
+.color-dark {
+	color: #454f37;
+}
+
 .navbar {
 	flex-direction: row;
 	justify-content: space-around;

@@ -27,7 +27,7 @@ function Content() {
 					description="Undergraduate Teaching Assistant for Programming Foundation 1 International class and Programming Foundation 2 class."
 				/>
 			</div>
-			<h5 className="text-center my-4">See my other projects at my <a href="https://github.com/michaelsusanto81" target="_blank">GitHub</a> and <a href="https://gitlab.com/michaelsusanto81" target="_blank">GitLab</a></h5>
+			<h5 className="text-center my-4">See my other projects at my <a href="https://github.com/michaelsusanto81" target="_blank" rel="noreferrer">GitHub</a> and <a href="https://gitlab.com/michaelsusanto81" target="_blank" rel="noreferrer">GitLab</a></h5>
 		</div>
 	)
 }

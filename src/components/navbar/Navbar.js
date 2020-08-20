@@ -13,6 +13,7 @@ function Navbar() {
 
 			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		        <span className="navbar-toggler-icon"></span>
+		        <h6 className="color-dark">Menu</h6>
 		    </button>
 
 		    <div className="collapse navbar-collapse" id="collapsibleNavbar">
@@ -33,7 +34,7 @@ function Navbar() {
 		        		</Link>
 		        	</div>
 		        	<div className="nav-item">
-		        		<a href="https://devmichael.blogspot.com" target="_blank" className="text-decoration-none">
+		        		<a href="https://devmichael.blogspot.com" target="_blank" rel="noreferrer" className="text-decoration-none">
 		        			<h4 className="nav-link">Blog</h4>
 		        		</a>
 		        	</div>

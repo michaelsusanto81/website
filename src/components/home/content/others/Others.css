@@ -6,9 +6,17 @@ section {
 	margin: 75px auto;
 }
 
+.skills h3 {
+	color: #454f37;
+}
+
 .skills-details {
 	display: flex;
 	flex-flow: column wrap;
+}
+
+.skills-details {
+	font-weight: 700;
 }
 
 @media only screen and (max-width: 500px) {
