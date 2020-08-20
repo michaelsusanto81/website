@@ -32,6 +32,11 @@ function Navbar() {
 		        			<h4 className="nav-link">About</h4>
 		        		</Link>
 		        	</div>
+		        	<div className="nav-item">
+		        		<a href="https://devmichael.blogspot.com" target="_blank" className="text-decoration-none">
+		        			<h4 className="nav-link">Blog</h4>
+		        		</a>
+		        	</div>
 		        </div>
 	    	</div>			
 		</nav>
