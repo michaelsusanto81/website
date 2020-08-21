@@ -13,7 +13,6 @@ function Navbar() {
 
 			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		        <span className="navbar-toggler-icon"></span>
-		        <h6 className="color-dark">Menu</h6>
 		    </button>
 
 		    <div className="collapse navbar-collapse" id="collapsibleNavbar">
