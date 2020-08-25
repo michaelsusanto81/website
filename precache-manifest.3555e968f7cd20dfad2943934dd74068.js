@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa54c8cbb9b2aa0f066ec2eee6acd053",
+    "revision": "74403371bfae55e7f91c7835ac0340d8",
     "url": "/index.html"
   },
   {
-    "revision": "16f1986a45262bfabcbd",
+    "revision": "28b9cc2ca616cf678d1e",
     "url": "/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "5760bc155379fabcbc83",
-    "url": "/static/css/main.49b4012c.chunk.css"
+    "revision": "f5e4c46edd73061acc3f",
+    "url": "/static/css/main.62f9aa76.chunk.css"
   },
   {
-    "revision": "16f1986a45262bfabcbd",
-    "url": "/static/js/2.12ee2f28.chunk.js"
+    "revision": "28b9cc2ca616cf678d1e",
+    "url": "/static/js/2.ce78f89a.chunk.js"
   },
   {
     "revision": "d3031346469a8a2ef527f1ad705ea3b7",
-    "url": "/static/js/2.12ee2f28.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ce78f89a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5760bc155379fabcbc83",
-    "url": "/static/js/main.54c2c9c4.chunk.js"
+    "revision": "f5e4c46edd73061acc3f",
+    "url": "/static/js/main.7692a720.chunk.js"
   },
   {
     "revision": "ba126735810163618457",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53ff22520eb284983c8328c9b0ea54f9",
     "url": "/static/media/android-logo.53ff2252.png"
+  },
+  {
+    "revision": "9e7b360e61eb967f574b8f28bf9ae3ed",
+    "url": "/static/media/dsc.9e7b360e.jpg"
   },
   {
     "revision": "8a50b602aa79b19775c22d02a290f51f",
@@ -66,5 +70,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee42cbe115b33ab5a53055b352906e3f",
     "url": "/static/media/ruby-logo.ee42cbe1.png"
+  },
+  {
+    "revision": "d0ad3fdc5760180b49d99d1d72ee52b0",
+    "url": "/static/media/sigap.d0ad3fdc.png"
+  },
+  {
+    "revision": "d317f78ffca1da7e31a7cf7cff55ab91",
+    "url": "/static/media/vehicle-record.d317f78f.jpg"
   }
 ]);
