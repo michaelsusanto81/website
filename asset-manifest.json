@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.42f6c47b.chunk.css",
+    "main.css": "/static/css/main.c2328fb8.chunk.css",
     "main.js": "/static/js/main.7692a720.chunk.js",
     "main.js.map": "/static/js/main.7692a720.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
@@ -9,10 +9,10 @@
     "static/js/2.ce78f89a.chunk.js": "/static/js/2.ce78f89a.chunk.js",
     "static/js/2.ce78f89a.chunk.js.map": "/static/js/2.ce78f89a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cc2734bdad3d6639625ac0de1924514b.js": "/precache-manifest.cc2734bdad3d6639625ac0de1924514b.js",
+    "precache-manifest.079135525925d88fe8dc2f2fef185db4.js": "/precache-manifest.079135525925d88fe8dc2f2fef185db4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
-    "static/css/main.42f6c47b.chunk.css.map": "/static/css/main.42f6c47b.chunk.css.map",
+    "static/css/main.c2328fb8.chunk.css.map": "/static/css/main.c2328fb8.chunk.css.map",
     "static/js/2.ce78f89a.chunk.js.LICENSE.txt": "/static/js/2.ce78f89a.chunk.js.LICENSE.txt",
     "static/media/SeaPay-Compfest.jpg": "/static/media/SeaPay-Compfest.b780acde.jpg",
     "static/media/TA-ProgFound1.jpg": "/static/media/TA-ProgFound1.535e18c3.jpg",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.3374ac37.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.ce78f89a.chunk.js",
-    "static/css/main.42f6c47b.chunk.css",
+    "static/css/main.c2328fb8.chunk.css",
     "static/js/main.7692a720.chunk.js"
   ]
 }
