@@ -1,0 +1,11 @@
+.passive {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    margin-left: 2.5rem;
+}
+
+.active {
+    color: black;
+    font-weight: bold;
+}
