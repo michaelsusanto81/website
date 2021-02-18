@@ -7,6 +7,11 @@ export const Nav = styled.nav`
     align-items: center;
     padding: 0 1rem;
     padding-right: 2rem;
+
+    @media only screen and (max-width: 600px) {
+        flex-flow: column wrap;
+        padding-right: 1rem;
+    }
 `;
 
 export const RightNav = styled.div`

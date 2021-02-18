@@ -12,12 +12,20 @@ export const AboutContainer = styled.div`
     width: 40rem;
 
     @media only screen and (max-width: 800px) {
-        width: 100%;
+        width: auto;
+    }
+
+    @media only screen and (max-width: 500px) {
+        padding: 3rem;
     }
 `;
 
 export const Paragraph = styled.p`
     font-size: 20px;
+
+    @media only screen and (max-width: 500px) {
+        font-size: 16px;
+    }
 `;
 
 export const ProfPicAbout = styled(ProfPic)`

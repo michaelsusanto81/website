@@ -1,7 +1,8 @@
 import React from 'react';
 import ImgMediaCard from '../../components/Portfolio';
+import { GITHUB_URL, GITLAB_URL, LINKEDIN_URL } from '../../constants';
 import { experiences } from './experiences';
-import { PortfolioContainer } from './style';
+import { MoreInfo, PortfolioContainer } from './style';
 
 const Portfolio = () => {
     return (
@@ -11,7 +12,7 @@ const Portfolio = () => {
                     <ImgMediaCard key={exp.title} exp={exp} />
                 ))
             }
-            <h3>See more on my <a href="https://github.com/michaelsusanto81" target="_blank" rel="noreferrer">GitHub</a>, <a href="https://gitlab.com/michaelsusanto81" target="_blank" rel="noreferrer">GitLab</a>, and <a href="https://id.linkedin.com/in/michaelsusanto81" target="_blank" rel="noreferrer">LinkedIn</a>.</h3>
+            <MoreInfo>See more on my <a href={GITHUB_URL} target="_blank" rel="noreferrer">GitHub</a>, <a href={GITLAB_URL} target="_blank" rel="noreferrer">GitLab</a>, and <a href={LINKEDIN_URL} target="_blank" rel="noreferrer">LinkedIn</a>.</MoreInfo>
         </PortfolioContainer>
     )
 }

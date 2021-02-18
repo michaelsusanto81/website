@@ -4,25 +4,26 @@ import MD from '../../../assets/medium.svg';
 import GH from '../../../assets/github-logo.png';
 import LI from '../../../assets/linkedin-logo.png';
 import { ContactContainer, ContactImg } from './style';
+import { FB_URL, GITHUB_URL, LINKEDIN_URL, MEDIUM_URL } from '../../../constants';
 
 const contacts = [
     {
-        url: "https://www.facebook.com/michael.s.155",
+        url: FB_URL,
         img: FB,
         alt: "Facebook",
     },
     {
-        url: "https://medium.com/@michaelsusanto81",
+        url: MEDIUM_URL,
         img: MD,
         alt: "Medium",
     },
     {
-        url: "https://gitlab.com/michaelsusanto81",
+        url: GITHUB_URL,
         img: GH,
         alt: "GitHub",
     },
     {
-        url: "https://id.linkedin.com/in/michaelsusanto81",
+        url: LINKEDIN_URL,
         img: LI,
         alt: "LinkedIn",
     },
