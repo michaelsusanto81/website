@@ -33,7 +33,7 @@ const Contact = () => {
         <ContactContainer>
             {
                 contacts.map(c => (
-                    <a href={c.url} target="_blank" rel="noreferrer">
+                    <a href={c.url} target="_blank" rel="noreferrer" key={c.url}>
                         <ContactImg src={c.img} alt={c.alt} width="30px"/>
                     </a>                    
                 ))
